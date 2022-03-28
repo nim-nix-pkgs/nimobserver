@@ -11,7 +11,6 @@
   inputs.src-nimobserver-master.ref   = "refs/heads/master";
   inputs.src-nimobserver-master.owner = "Tangdongle";
   inputs.src-nimobserver-master.repo  = "nimobserver";
-  inputs.src-nimobserver-master.dir   = "";
   inputs.src-nimobserver-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
